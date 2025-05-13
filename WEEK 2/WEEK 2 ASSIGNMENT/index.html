@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML</title>
+    </head>
+    <body>
+        <h1>ORDERED LISTS</h1>
+        <ol type="I">
+            <li>Goods</li>
+            <li>Stocks</li>
+            <li>Purchases</li>
+            <li>Goods received</li>
+        </ol>
+        <h2>EXTERNAL IMAGE</h2>
+        <img src="PP.jpg" alt="Image of red a car" width="350" height="550"> 
+        <h3>TABLES</h3>
+        <table border="1">
+            <caption>Personal Information</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ernest Nkrumah Gyateng</td>
+                    <td>Accra</td>
+                    <td>0541188084</td>
+                    <td>ErnestNkrumahGyateng@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>William Tandoh</td>
+                    <td>Mankessim</td>
+                    <td>0556961187</td>
+                    <td>williamt@gmail.com</td>   
+                </tr>
+                <tr>
+                    <td>Erica Fynn</td>
+                    <td>Kasoa</td>
+                    <td>0541958056</td>
+                    <td>ericafynn@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Obed Cantona</td>
+                    <td>Kasoa</td>
+                    <td>0243163462</td>
+                    <td>obed.c@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Abigail Acquah</td>
+                    <td>Tema</td>
+                    <td>0245408151</td>
+                    <td>abigailacquah@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3>Registration Forms</h3>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <br><br>
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter a strong password" required>
+            <br><br>
+            <!-- Date of Birth Field -->
+             <label for="dob">Date of Birth</label>
+             <input type="dob" id="dob" name="dob" required>
+             <br><br>
+             <!-- Dropdown Selection -->
+              <label for="country">Country:</label>
+              <select id="country" name="country">
+                <option value="">--Select Country--</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Togo">Togo</option>
+                <option value="Benin">Benin</option>
+                <option value="Kenya">Kenya</option>
+                </select>
+                <br><br>
+                <!-- Radio Buttons -->
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <br><br>
+                <!-- Checkboxes -->
+                 <label>Interests:</label>
+                 <input type="checkbox" name="gender" value="sports"> Sports
+                <input type="checkbox" name="gender" value="music"> Music
+                <input type="checkbox" name="gender" value="art"> Art
+                <br><br>
+                <button>Register</button>
+                <input type="button" value="cancel">
+
+        </form>
+
+    </body>
+</html>

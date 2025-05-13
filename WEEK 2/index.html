@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>hmtl lists, images, tables, forms</title>
+        </head>
+        <body>
+            <h1>HTML List</h1>
+            <h2>Ordered Lists</h2>
+            <ol type="A">
+                <li>software engineering</li>
+                <li>web development</li>
+                <li>python</li>
+                <li>database</li>
+                <li>start up</li>
+            </ol>
+            <h3>un-ordered lists</h3>
+            <ul type="square">
+                <li>game</li>
+                <li>book</li>
+                <li>ps4</li>
+                <li>console</li>
+            </ul>
+            <h3>definition lists</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup Language</dd>
+                <dt>SQL</dt>
+                <dt>workbench</dt>
+            </dl>
+            <h1>HTML imagegs</h1>
+            <img src="PP.jpg" alt="Image of a red audi" width="350" height="550">
+            <h1>HTML TABLES</h1>
+            <table border="1">
+                <caption>Personal Info</caption>
+                <thead>
+                    <tr>
+                        <th colspan="2">NAME</th>
+                        <th>EMAIL</th>
+                        <th>COUNTRY</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Wils</td>
+                        <td>spark</td>
+                        <td>wilsaprk@gmail.com</td>
+                        <td>Ghana</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">NAME</th>
+                        <th>EMAIL</th>
+                        <th>COUNTRY</th>  
+                    </tr>
+                </tfoot>
+            </table>
+            <h1>HTML Forms</h1>
+            <form action="" method="">
+                <label for="name">Name:</label>
+                <input type="text" id="student_name" name="student_name" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <br><br>
+                <label for="hobbies">Hobbies</label>
+                <input type="checkbox" name="gender" value="sports"> Sports
+                <input type="checkbox" name="gender" value="music"> Music
+                <input type="checkbox" name="gender" value="art"> Art
+                <br><br>
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option>--Select Country--</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Niger">Niger</option>
+                    <option value="Kenya">Kenya</option>
+                </select>
+                <br><br>
+                <label for="description">Describe yourself</label>
+                <textarea id="description" name="description"></textarea>
+                <br><br>
+                <button>Register</button>
+                <input type="button" value="cancel">
+            </form>
+        </body>
+    </html>
